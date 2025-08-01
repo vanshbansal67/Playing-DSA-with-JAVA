@@ -1,2 +1,34 @@
-# Playing-DSA-with-JAVA
-This repository is a daily log of my journey to master Data Structures and Algorithms (DSA) using Java. Each day, I explore core DSA topics and solve related problems to build a strong foundation for competitive programming, technical interviews, and real-world problem-solving.  🔹 Language Used: Java 
+# 📘 Playing DSA with Java
+
+[![GitHub Followers](https://img.shields.io/github/followers/vanshbansal67?label=Follow&style=social)](https://github.com/vanshbansal67)
+[![Stars](https://img.shields.io/github/stars/vanshbansal67/playing-DSA-with-java?style=social)](https://github.com/vanshbansal67/playing-DSA-with-java/stargazers)
+![Java](https://img.shields.io/badge/Language-Java-orange?logo=java&logoColor=white)
+
+> 🚀 Daily DSA practice with Java to master coding interviews, competitive programming, and core problem-solving skills.
+
+---
+
+## 🛠️ What’s Inside?
+
+- ✅ Daily Java code implementations of DSA concepts  
+- ✅ Practice questions from LeetCode, GFG, etc.  
+- ✅ Well-commented solutions with logic explained  
+- ✅ Organized by day and topic
+
+---
+
+## 📅 Daily Progress Tracker
+
+| Day | Topic Covered              | Status |
+|-----|----------------------------|--------|
+| 1   | Arrays - Basics            | ✅      |
+| 2   | Strings - Manipulation     | ✅      |
+| 3   | Searching Algorithms       | ✅      |
+| 4   | Sorting Algorithms         | ✅      |
+| 5   | Recursion                  | 🚧      |
+| ... | More coming daily...       | 🔜      |
+
+---
+
+## 📂 Folder Structure
+
