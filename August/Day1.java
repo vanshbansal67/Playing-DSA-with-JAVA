@@ -1,5 +1,6 @@
 package August;
 
+// to print the no. if it is prime or not.
 import java.util.Scanner;
 
 public class Day1 {
