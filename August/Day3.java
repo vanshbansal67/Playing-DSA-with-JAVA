@@ -2,6 +2,7 @@ package August;
 
 import java.util.*;
 import java.util.Scanner;
+import java.lang.String;
 
 // print the fibonacci series to the given no. 
 // count and print digits of a no
@@ -77,6 +78,32 @@ class InverseDigit {
     }
 }
 
+// class RotateNumber {
+// void Rotate(int num, int k) {
+
+// int div = (int) Math.pow(10, k);
+// int rem = num % div;
+// num = num / div;
+// System.out.println(rem + "" + num);
+
+// }
+// }
+
+class RotateNumber {
+
+    void Rotate(int num, int k) {
+        String n = Integer.toString(num);
+        int len = n.length();
+        k = k % len;
+        if (k < 0) {
+            k += len;
+        }
+        String rem = n.substring(len - k);
+        String left = n.substring(0, len - k);
+        System.out.println("Rotated String is: " + rem + left);
+    }
+}
+
 public class Day3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -105,5 +132,12 @@ public class Day3 {
         InverseDigit id = new InverseDigit();
         id.Inverse(num4);
 
+        System.out.println();
+        System.out.println("enter the no. to rotate:");
+        int num5 = sc.nextInt();
+        System.out.println("enter the no. of digit you want to rorate;");
+        int k = sc.nextInt();
+        RotateNumber rn2 = new RotateNumber();
+        rn2.Rotate(num5, k);
     }
 }
