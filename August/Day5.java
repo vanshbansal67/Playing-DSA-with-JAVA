@@ -1,17 +1,42 @@
 package August;
 
 import java.util.Scanner;
+import java.math.*;
 
 class PrimeFactorization {
     void factors(int n) {
-        for (int i = 2; i * i < n; i++) {
+        for (int i = 2; i * i <= n; i++) {
             while (n % i == 0) {
                 n = n / i;
                 System.out.print(i + "x");
             }
-            if (n != 1) {
-                System.out.print(n);
-            }
+        }
+        if (n != 1) {
+            System.out.print(n);
+        }
+    }
+}
+
+class PythagoreanTriplet {
+    int biggest;
+
+    void Triplet(int n1, int n2, int n3) {
+        if (n1 >= n2 && n1 >= n3) {
+            biggest = n1;
+        } else if (n2 >= n3 && n2 >= n1) {
+            biggest = n2;
+        } else {
+            biggest = n3;
+        }
+        if (biggest == n1) {
+            Boolean flag = ((n2 * n2 + n3 * n3) == (n1 * n1));
+            System.out.println(flag);
+        } else if (biggest == n2) {
+            boolean flag = ((n1 * n1 + n3 * n3) == (n2 * n2));
+            System.out.println(flag);
+        } else {
+            Boolean flag = ((n1 * n1 + n2 * n2) == (n3 * n3));
+            System.out.println(flag);
         }
     }
 }
@@ -41,5 +66,14 @@ public class Day5 {
         PrimeFactorization pf = new PrimeFactorization();
         pf.factors(num);
 
+        System.out.println();
+        System.out.print("enter the first number;");
+        int num1 = sc.nextInt();
+        System.out.print("enter the second number;");
+        int num2 = sc.nextInt();
+        System.out.print("enter the third number;");
+        int num3 = sc.nextInt();
+        PythagoreanTriplet Pg = new PythagoreanTriplet();
+        Pg.Triplet(num1, num2, num3);
     }
 }
