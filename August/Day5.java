@@ -3,6 +3,9 @@ package August;
 import java.util.Scanner;
 import java.math.*;
 
+//PrimeFactorization
+// PythagoreanTriplet
+// GCD and LCM
 class PrimeFactorization {
     void factors(int n) {
         for (int i = 2; i * i <= n; i++) {
