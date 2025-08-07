@@ -3,6 +3,9 @@ package August;
 import java.util.Scanner;
 // Benjamin Bulbs Problem 
 // Pattern 1 
+// Pattern 2
+// Pattern 3 
+// Pattern 4 
 
 class BenjaminBulbs {
     void Bulbs(int n) {
