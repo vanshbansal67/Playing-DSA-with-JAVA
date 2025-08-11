@@ -2,6 +2,7 @@ package August;
 
 import java.util.Scanner;
 
+
 class Pattern11 {
     void NumberPattern(int n) {
         int num = 1;
