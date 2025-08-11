@@ -1,6 +1,8 @@
 package August;
 
 import java.util.Scanner;
+// permutation calculating
+// Digit Frequency
 
 class numberFrequency {
     void frequency(int n, int d) {
