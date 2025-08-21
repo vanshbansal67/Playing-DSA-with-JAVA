@@ -159,6 +159,7 @@ public class Day10 {
         int num2 = sc.nextInt();
         DecimalToAnyBase dtab = new DecimalToAnyBase();
         dtab.DtoAnyBase(num1, num2);
+
         System.out.println();
         System.out.print("Enter the number to convert it to decimal:");
         int num3 = sc.nextInt();
@@ -166,6 +167,7 @@ public class Day10 {
         int num4 = sc.nextInt();
         AnyBaseToDecimal abtd = new AnyBaseToDecimal();
         abtd.AnyBaseToD(num3, num4);
+
         System.out.println();
         System.out.print("Enter the base crom which to convert the number:");
         int num5 = sc.nextInt();
@@ -175,6 +177,7 @@ public class Day10 {
         int num7 = sc.nextInt();
         AnyBaseToAnyBase abtab = new AnyBaseToAnyBase();
         abtab.ABtoAB(num5, num6, num7);
+        System.out.println();
         System.out.print("Enter the base of numbers:");
         int num8 = sc.nextInt();
         System.out.print("Enter the first number:");
@@ -199,7 +202,7 @@ public class Day10 {
         int num15 = sc.nextInt();
         System.out.print("Enter the second number:");
         int num16 = sc.nextInt();
-        getSubstraction MLB = new getSubstraction();
-        MLB.Substraction(num14, num15, num16);
+        getSubstraction MLb = new getSubstraction();
+        MLb.Substraction(num14, num15, num16);
     }
 }
